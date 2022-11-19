@@ -5,4 +5,5 @@
     top: 0;/*se posiciona en la parte superior*/
     left: 0;/*se posiciona en la parte isquierda*/
     width: 100%;/*adquiere un ancho de la vista de ventana view port*/
+    box-shadow: 0 0 0.125rem 0.125rem var(--primary-shadow-color);/**/
 }

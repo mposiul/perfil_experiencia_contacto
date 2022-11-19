@@ -1,7 +1,14 @@
 .nav {
     /*background-color: yellow;/*ejemplo margin/padding*/
     /*border: 0.5rem solid red;/*ejemplo margin/padding*/
-    padding: 1rem;/*genera un espacio interno alrededor de border*/
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    /*padding: 1rem;/*genera un espacio interno alrededor de border*/
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.nav__logo {
+    display: flex;/*Flexibiliza contenedor*/
+    width: 40px;/*ancho de imagen peque;a*/
+    height: 40px;/*alto de imagen peque;a*/
+    border-radius: 50%;/*format imagen circular*/
 }
