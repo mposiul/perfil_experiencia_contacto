@@ -1,0 +1,7 @@
+.container {
+    background-color: dodgerblue;/*ejemplo*/
+    max-width: var(--max-width-container);/*Asigan ancho maximo al contenedor container*/
+    margin: auto;/*centra el contenedor al centro de su contenedor superior*/
+    padding-left: var(--padding-container);/*espacio interno del lado izquierdo del borde*/
+    padding-right: var(--padding-container);/*espacio interno del lado derecho del borde*/
+}
