@@ -1,0 +1,8 @@
+.header {
+    /*background-color: dodgerblue;/*ejemplo margin/padding*/
+    background-color: var(--primary-theme-color);/*color de fondo del header*/
+    position: fixed;/*header se posiciona encima de la pagina*/
+    top: 0;/*se posiciona en la parte superior*/
+    left: 0;/*se posiciona en la parte isquierda*/
+    width: 100%;/*adquiere un ancho de la vista de ventana view port*/
+}

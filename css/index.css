@@ -1,4 +1,6 @@
 @import '../css/modules/variables.css';
+@import '../css/modules/header.css';
+@import '../css/modules/nav.css';
 
 .body {
     background-color: var(--primary-theme-color);

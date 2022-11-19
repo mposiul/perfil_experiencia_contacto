@@ -1,0 +1,7 @@
+.nav {
+    /*background-color: yellow;/*ejemplo margin/padding*/
+    /*border: 0.5rem solid red;/*ejemplo margin/padding*/
+    padding: 1rem;/*genera un espacio interno alrededor de border*/
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
