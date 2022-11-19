@@ -5,3 +5,12 @@
     padding-left: var(--padding-container);/*espacio interno del lado izquierdo del borde*/
     padding-right: var(--padding-container);/*espacio interno del lado derecho del borde*/
 }
+
+.f-elements {
+    display: flex;/*Flexibiliza a los hijos*/
+}
+
+.f-elements--header {
+    align-items: center;
+    justify-content: space-between;
+}
