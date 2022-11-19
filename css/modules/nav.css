@@ -2,8 +2,8 @@
     /*background-color: yellow;/*ejemplo margin/padding*/
     /*border: 0.5rem solid red;/*ejemplo margin/padding*/
     /*padding: 1rem;/*genera un espacio interno alrededor de border*/
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
 }
 
 .nav__logo {
