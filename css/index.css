@@ -2,7 +2,7 @@
 @import '../css/modules/layout.css';
 @import '../css/modules/header.css';
 @import '../css/modules/nav.css';
-@import '../css/modules/menu.css';
+@import '../css/modules/list.css';
 
 .body {
     background-color: var(--primary-theme-color);
