@@ -1,5 +1,32 @@
 .list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    list-style: none;/*descarta estilo x defaul de las items de listas li*/
+    margin: 0;/*retira los margenes*/
+    padding: 0;/*retira espacio interno de border*/
+}
+
+.list__link {
+    position: relative;/*Relative para que los box que esten dentro se posiciones de acuerdo al padre
+    se posiciona dentro de un box de position absolute*/
+    color: var(--primary-text-color);/*asigna color blanco a los enlaces*/
+    font-weight: 700;/*ancho del texto*/
+    text-decoration: none;/*retira el formato de estilos de los items de listas li*/
+    transition: color 0.25s;/*se demora 0.25 segundos en cambiar transicion*/
+}
+
+.list__link:hover {
+    color: var(--primary-highlight-color);/*asigna color blanco a los enlaces*/
+}
+
+.list__link::before {
+    content: '';/*asigna color blanco a los enlaces*/
+    position: absolute;
+    left: 0;/*posicion izquierda 0*/
+    bottom: -0.125rem;/*linea en posicion baja -0*/
+    width: 0;/*linea dibujada debajo 100%, linea a punto de dibujar 0*/
+    height: 0.0625rem;
+    background-color: var(--secondary-highlight-color);
+}
+
+.list__link:hover::before {
+    width: 100%;
 }
