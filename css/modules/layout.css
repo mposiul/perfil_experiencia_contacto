@@ -1,3 +1,17 @@
+.section {
+    padding top: var(--padding-section);/**/
+    padding-bottom: var(--padding-section);/**/
+}
+
+.section--hero {
+    /*background-color: white;/*color*/
+    background-image: url('http://i.postimg.cc/7PJV8Dp8/react-01-01-wpo.webp');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
 .container {
     /*background-color: dodgerblue;/*ejemplo*/
     max-width: var(--max-width-container);/*Asigan ancho maximo al contenedor container*/
@@ -18,4 +32,14 @@
 .f-elements--center {
     align-items: center;/*Alinea a estos hijos de flex en forma vertical*/
     justify-content: center;/*Alinea a estos hijos de flex en forma horizontal al centro*/
+}
+
+.f-elements--responsive {
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .f-elements--responsive {
+        flex-direction: row;
+    }
 }
