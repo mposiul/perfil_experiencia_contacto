@@ -15,7 +15,7 @@
 }
 
 @media (min-width: 768px) {
-    .md\:f-direction-row {
+    .md\:f-direction-row {/*el "\" es comodin para poder utilizar caracteres especiales*/
         flex-direction: row;
     }
 }
