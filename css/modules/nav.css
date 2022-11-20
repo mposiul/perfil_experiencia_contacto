@@ -28,6 +28,7 @@
 .nav__icon {
     position: absolute;/*no se saldra del contenedor padre -nav,position relative*/
     right: var(--padding-container);/*posiciona los iconos a la derecha*/
+    color: var(--primary-text-color);
     font-size: 1.75rem;
     text-decoration: none;
 }
