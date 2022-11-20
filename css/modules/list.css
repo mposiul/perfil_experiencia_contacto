@@ -4,6 +4,16 @@
     padding: 0;/*retira espacio interno de border*/
 }
 
+/*Vista celular slide*/
+.list--header {
+    position: fixed;/*posicion fija Perfil Experiencia Contacto debajo del containner de la foto peque;a*/
+    top: 4rem;/*posicionamos el contenedor 4rem abajo del inicio de la pantalla*/
+    left: 0;/*posicionamos el contenedor hacia la izquierda*/
+    width: 100%;/*redimencionamos toda la vista de navegador horizontal*/
+    height: calc(100% - 4rem);/*asignamos un alto de 100% - 4rem del inicio del contenedor*/
+    background-color: var(--secondary-theme-color);/*asignamos un color de contenedor*/
+}
+
 .list__link {
     position: relative;/*Relative para que los box que esten dentro se posiciones de acuerdo al padre
     se posiciona dentro de un box de position absolute*/
@@ -28,5 +38,5 @@
 }
 
 .list__link:hover::before {
-    width: 100%;
+    width: 100%;/*se dibuja la linea despues de posicionar el cursor en menu*/
 }

@@ -1,3 +1,11 @@
+.f-direction-column {
+    flex-direction: column;
+}
+
 .gap-sm {
-    gap: calc(var(--padding-section) * 0.5);
+    gap: calc(var(--padding-section) * 0.5);/*espaciado 50% de un normal*/
+}
+
+.gap-md {
+    gap: var(--padding-section);/*espaciado normal segun variable*/
 }

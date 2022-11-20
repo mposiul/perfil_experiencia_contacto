@@ -14,3 +14,8 @@
     align-items: center;/*Alinea a estos hijos de flex en forma vertical*/
     justify-content: space-between;/*Alinea a estos hijos de flex en forma horizontal*/
 }
+
+.f-elements--center {
+    align-items: center;/*Alinea a estos hijos de flex en forma vertical*/
+    justify-content: center;/*Alinea a estos hijos de flex en forma horizontal al centro*/
+}
