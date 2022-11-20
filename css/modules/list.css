@@ -12,7 +12,9 @@
     width: 100%;/*redimencionamos toda la vista de navegador horizontal*/
     height: calc(100% - 4rem);/*asignamos un alto de 100% - 4rem del inicio del contenedor*/
     background-color: var(--secondary-theme-color);/*asignamos un color de contenedor*/
-    background-color: var(--test);/*trabaja con definiciones en nav.css, variable --test*/
+    /*background-color: var(--test);/*trabaja con definiciones en nav.css, variable --test*/
+    transform: translateX(var(--traslate-list-header));/*traslada a una posicion base*/
+    transition: transform 0.25s;
 }
 
 .list__link {

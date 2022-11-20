@@ -2,13 +2,15 @@
     /*background-color: yellow;/*ejemplo margin/padding*/
     /*border: 0.5rem solid red;/*ejemplo margin/padding*/
     /*padding: 1rem;/*genera un espacio interno alrededor de border*/
-    --test: #0088;
+    /*--test: #0088;/*define variable test que asigna un color azul al contenedor nav*/
+    --traslate-list-header: 100%;/*de forma base no hay traslado-trabaja con target*/
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
 }
 
 .nav:target {
-    --test: #0808;
+    --traslate-list-header: 0;
+    --test: #0808;/*cuando es targeado redefine variable test que asigna un color verde al contenedor nav*/
 }
 
 .nav__logo {
