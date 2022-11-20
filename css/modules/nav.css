@@ -3,14 +3,19 @@
     /*border: 0.5rem solid red;/*ejemplo margin/padding*/
     /*padding: 1rem;/*genera un espacio interno alrededor de border*/
     /*--test: #0088;/*define variable test que asigna un color azul al contenedor nav*/
+    /*position: relative;/*contenedor que contendra al hijo*/
     --traslate-list-header: 100%;/*de forma base no hay traslado-trabaja con target*/
+    --scale-menu: 1;
+    --scale-close: 0;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
 }
 
 .nav:target {
     --traslate-list-header: 0;
-    --test: #0808;/*cuando es targeado redefine variable test que asigna un color verde al contenedor nav*/
+    --scale-menu: 0;
+    --scale-close: 1;
+    /*--test: #0808;/*cuando es targeado redefine variable test que asigna un color verde al contenedor nav*/
 }
 
 .nav__logo {
@@ -18,4 +23,19 @@
     width: 40px;/*ancho de imagen peque;a*/
     height: 40px;/*alto de imagen peque;a*/
     border-radius: 50%;/*format imagen circular*/
+}
+
+.nav__icon {
+    position: absolute;/*no se saldra del contenedor padre -nav,position relative*/
+    right: var(--padding-container);/*posiciona los iconos a la derecha*/
+    font-size: 1.75rem;
+    text-decoration: none;
+}
+
+.nav__icon--menu {
+    transform: scale(var(--scale-menu));
+}
+
+.nav__icon--close {
+    transform: scale(var(--scale-close));
 }
