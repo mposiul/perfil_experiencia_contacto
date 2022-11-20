@@ -43,3 +43,12 @@
 .list__link:hover::before {
     width: 100%;/*se dibuja la linea despues de posicionar el cursor en menu*/
 }
+
+@media (min-width: 768px) {
+    .list--header {
+        position: static;/*posicion fija Perfil Experiencia Contacto debajo del containner de la foto peque;a*/
+        background-color: transparent;
+        width: auto;
+        height: auto;
+    }
+}

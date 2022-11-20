@@ -39,3 +39,15 @@
 .nav__icon--close {
     transform: scale(var(--scale-close));
 }
+
+@media (min-width: 768px) {
+    .nav {
+        --traslate-list-header: 0;/*no muestra el menu en el header*/
+        --scale-menu: 0;
+        --scale-close: 0;
+    }
+
+    .nav:target {
+        --scale-close: 0;
+    }
+}
